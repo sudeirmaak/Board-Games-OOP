@@ -11,9 +11,9 @@ class bgame(ABC):
         pass
 
     @abstractmethod
-    def calculate_price(self):
+    def calc_p(self):
         pass
 
     @abstractmethod
-    def special_features(self):
+    def details(self):
         pass
