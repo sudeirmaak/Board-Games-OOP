@@ -4,4 +4,33 @@ My topic was Board Games. I love playing board games but I never thought about s
 I tried to create a board game shop, where it is possible to buy different kinds of board games such as strategy, family, party games;
 and of course as the owner adding the games, stocking, giving discounts etc. 
 
-Firstly I created the abstract base class for the board games so that every different genres of the board games have their essential name, publisher and price attributes.
+Firstly I created the abstract base class for the board games so that every different genres of the board games have their essential name, 
+publisher and price attributes. Also their basic descriptions, price calculations(Unfortunately, it doesn't actually calculate) and any
+details to be shown.
+Afterwards I created the genres file where 8 different genres of the board games have their own implementation of the price. description,
+details and complexity. I also added different attributes to each such as age recommendation, tips, max players and so on. (Half of my 
+coding time was searching up the names of the games and their details. I even checked amazon to find their approximate prices!)
+
+Next up, I created a shop class for the user of the system to showcase the inventory, add games, sell games, see the games in the 
+inventory. This was solely to manage the inventory of the shop but I also found out about the Factory method when I was doing research.
+I used it to add completely nw games to the inventory. While I didn't fully understand the concept and implementation of the method. I 
+managed to imply parameters for the games so they can be added to their spesific genre and be stored in the inventory. Similarly, I
+searched for a way to keep track of the actions taken in the shop class such as adding or selling a game.
+
+Lastly, in order to add an extra feature I created discounts class. I didn't want to add it to the main bgames class because I do not
+want every game to have the discount feature at all times. So if wanted it can be added and changed to different genres or a spesific
+game in a genre. It works simply by determining the rate and calculating mathematically.
+
+I have tested all my abstarct classes in the tests folder using unittest (I couldn't import Pytest for my life).
+
+------------------------
+
+I have encountered several problems and made tons of mistakes. I feel like I just proved that coding is knowing how to google. 
+My project is quite simple as I didn't have the time to work on it (my fault %100) and I will admit that I used google quite frequently
+to finish this project. I used it to make the correct implementations and the structure but I tried my best to make this code my own even 
+though the idea and half of the codes in discounts and tracks file. On my github, you will see everything was added and created on 
+29-30.06.2024. I started the project a month ago but faced some problems and ended up not even touching the code for a long time. 
+I rage deleted some files, had issues with pytest even had 2-3 venvs at the same time and couldn't get rid of them. At some point,
+I had 4 different repositories on github all from zero for this project. The only reason I could finish the project today was I could 
+use my old attempts (the ones there are working) here. I apologize for all the excuses I gave, please note that I am taking full 
+responsibility for my mistakes and inconsiderations. 
