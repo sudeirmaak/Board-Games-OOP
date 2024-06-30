@@ -1,0 +1,7 @@
+My topic was Board Games. I love playing board games but I never thought about selling them. 
+(Of course I didn't steal the idea from our OOP Book. ”Another idea could be a shop selling seeds, or plants for farming.”)
+
+I tried to create a board game shop, where it is possible to buy different kinds of board games such as strategy, family, party games;
+and of course as the owner adding the games, stocking, giving discounts etc. 
+
+Firstly I created the abstract base class for the board games so that every different genres of the board games have their essential name, publisher and price attributes.
