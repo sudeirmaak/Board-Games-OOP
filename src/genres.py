@@ -1,9 +1,11 @@
 from .bgames import bgame
+from .discounts import Discounts
 
-class CoopGames(bgame):
-    def __init__(self, name, publisher, price, complexity):
+class CoopGames(bgame, Discounts):
+    def __init__(self, name, publisher, price, complexity, discount_rate = 0.5):
         super().__init__(name, publisher, price)
         self._complexity = complexity
+        self.discount_rate = discount_rate
 
     def description(self):
         return f"{self.name} is a cooperative game published by {self.publisher}. Complexity: {self._complexity}."

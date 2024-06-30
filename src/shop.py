@@ -1,7 +1,10 @@
+from .tracker import log_action
+
 class Shop:
     def __init__(self):
         self.inventory = []
 
+    @log_action("added")
     def add_game(self, game):
         self.inventory.append(game)
 
@@ -9,6 +12,7 @@ class Shop:
         for game in self.inventory:
             print(game.description())
 
+    @log_action("sold")
     def sell_game(self, game_name):
         for game in self.inventory:
             if game.name == game_name:
