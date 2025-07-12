@@ -24,13 +24,3 @@ game in a genre. It works simply by determining the rate and calculating mathema
 I have tested all my abstarct classes in the tests folder using unittest (I couldn't import Pytest for my life).
 
 ------------------------
-
-I have encountered several problems and made tons of mistakes. I feel like I just proved that coding is knowing how to google. 
-My project is quite simple as I didn't have the time to work on it (my fault %100) and I will admit that I used google quite frequently
-to finish this project. I used it to make the correct implementations and the structure but I tried my best to make this code my own even 
-though the idea and half of the codes in discounts and tracks file. On my github, you will see everything was added and created on 
-29-30.06.2024. I started the project a month ago but faced some problems and ended up not even touching the code for a long time. 
-I rage deleted some files, had issues with pytest even had 2-3 venvs at the same time and couldn't get rid of them. At some point,
-I had 4 different repositories on github all from zero for this project. The only reason I could finish the project today was I could 
-use my old attempts (the ones there are working) here. I apologize for all the excuses I gave, please note that I am taking full 
-responsibility for my mistakes and inconsiderations. 
