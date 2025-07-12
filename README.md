@@ -3,7 +3,6 @@
 
 **Board-Games-OOP** is a small project built in Python using object-oriented programming. It's a simulation of a board game shop where you can manage inventory, add and sell different types of board games, and apply discounts.
 
-
 ## Project Overview
 
 - Different board game genres (strategy, family, party, etc.)
@@ -11,16 +10,7 @@
 - A shop system to add, remove, and view games
 - Optional discount system that can be applied to individual games or entire genres
 
-## Structure
-
-# 🎲 BGames – A Simple Python Board Game Shop
-
-**BGames** is a small Python OOP project that simulates a board game shop.  
-You can add games from different genres, manage inventory, apply discounts, and more.
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
